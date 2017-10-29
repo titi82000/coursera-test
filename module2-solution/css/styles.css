@@ -5,6 +5,8 @@
   }
   h1 {
     margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
   }
 
   p {
@@ -21,4 +23,28 @@
   /* Simple Responsive Framework. */
   .row {
     width: 100%;
+  }
+
+    /********** Browser window **********/
+  @media (min-width: 992px) {
+    .col-md-4 {
+      float: left;
+      width: 33.33%;
+    }
+ 
+  }
+
+/********** Tablet view **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-sm-6{
+      float: left;
+      width: 50%;
+      font-size: 110%;
+    }
+    
+/********** Mobile view **********/
+ @media (max-width: 767px) {
+    .col-xs-12{
+      font-size: 110%;
+    }
   }
