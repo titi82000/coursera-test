@@ -104,7 +104,7 @@ section {
 
 /********** Mobile view **********/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-xs-12 {
     float: left;
     width: 100%;
